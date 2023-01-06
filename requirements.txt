@@ -9,7 +9,7 @@ mypy
 types-Markdown
 twine
 black
-playwright
+#playwright
 build
 pytest
 pytest-md

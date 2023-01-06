@@ -44,7 +44,7 @@ debug = False
 
 # Whether to allow access to localhost, RFC1918 and other "local" services. Note that enabling
 # this can be a security risk.
-enable_local_access = False
+enable_local_access = True
 
 # Captcha provider; currently must be "hcaptcha"; see <https://hcaptcha.com/>.
 # Comment out to disable.

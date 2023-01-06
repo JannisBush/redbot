@@ -158,6 +158,7 @@ class HarFormatter(Formatter):
                 "category": note.category.name,
                 "level": note.level.name,
                 "summary": note.show_summary(self.lang),
+                "text": note.show_text(self.lang),
             }
             out.append(msg)
         return out
